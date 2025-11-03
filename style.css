@@ -1,0 +1,303 @@
+body {
+    background-color: black;
+}
+
+.page1 {
+    position: absolute;
+    top: 30vh;
+    right: 7.5vw;
+    height: 85vw;
+    width: 85vw; 
+    background: rgba(242, 192, 120, 1);
+    
+}
+
+.page1 h1 {
+    position: relative;
+    top: 30%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 40px;
+
+}
+
+#bottom1 {
+    height: 126px;
+    width: 126px;
+    position: relative;
+    top: 25%;
+    right: -32.5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* ombre for this text, maybe */
+.page1 p {
+    position: relative;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    color: rgb(84, 65, 78);
+
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 18px;
+}
+
+/* 
+.textBounce1 span {
+    position: relative;
+    top: 27%;
+    text-align: center;
+    color: rgb(84, 65, 78);
+
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 18px;
+
+    display: inlinee-block;
+    animation: bounce 0.8s ease infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0) 
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.textBounce1 span span:nth-child(1) {
+    animation-delay: 0.3s;
+} */
+
+.page2 {
+    position: absolute;
+    top: 30vh;
+    right: 7.5vw;
+    height: 85vw;
+    width: 85vw; 
+    background-image: url(icons/paper-Bg.jpg);
+}
+
+.page2 h1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -1vh;
+    color: rgb(176, 161, 186);
+
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 25px;
+
+}
+
+
+.page2 p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 75%;
+
+    color: rgb(84, 65, 78);
+
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 18px;
+    
+}
+
+#img1 {
+    position: absolute;
+    top: 15%;
+    right: 60%;
+    transform: rotate(-20deg);
+    height: 35%;
+    width: 30%;
+
+}
+
+#img2 {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    transform: rotate(10deg);
+    height: 40%;
+    width: 35%;
+}
+
+#img3 {
+    position: absolute;
+    top: 50%;
+    right: 60%;
+    transform: rotate(15deg);
+    height: 40%;
+    width: 35%;
+}
+
+#img4 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: rotate(5deg);
+    height: 45%;
+    width: 40%;
+}
+
+.page3 {
+    position: absolute;
+    top: 30vh;
+    right: 7.5vw;
+    height: 85vw;
+    width: 85vw; 
+    background: rgba(99, 105, 64, 1);
+}
+
+
+.note {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    transform: rotate(-10deg);
+    height: 55vw;
+    width: 50vw;
+    background: rgba(250, 237, 202);
+}
+
+.note h1 {
+    margin-left: 10px;
+    position: absolute;
+    color: #fff;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 28px;
+}
+
+.note h2 {
+    margin-left: 10px;
+    position: absolute;
+    display: flex;
+    top: 20%;
+    justify-content: center;
+    color:#fff;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 28px;
+}
+
+
+#flowerGif {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+    top: 55%;
+    right: 20%
+
+}
+
+#butt1 {
+    background-color: transparent;
+    border: transparent;
+    position: absolute;
+    top: 85.5%;
+    right: 62.5%;
+    width: 20vw;
+    height: 8vw;
+
+}
+
+#butt1img {
+    position: absolute;
+    top: 75.5%;
+    right: 60%;
+    width: 25vw;
+    height: 25vw;
+
+    
+
+}
+
+#butt2 {
+    position: absolute;
+    background-color: transparent;
+    border: transparent;
+    top: 85.5%;
+    right: 16%;
+    width: 20vw;
+    height: 8vw;
+}
+
+#butt2img {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    top: 75.5%;
+    right: 13.5%;
+
+}
+
+.page4 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    top: 30vh;
+    right: 7.5vw;
+    height: 85vw;
+    width: 85vw; 
+    background: rgba(250, 237, 202, 1);
+
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 25px;
+}
+
+.page4 form {
+    padding-left: 7vw;
+    padding-top: 5vw;
+}
+
+.page4 input {
+    width: 90%;
+}
+
+.page4 button {
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 50%;
+    height: 4vh;
+
+    background-color: lavender;
+    border: transparent;
+
+    color: saddlebrown;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 25px;
+}
